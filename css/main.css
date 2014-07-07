@@ -6,21 +6,25 @@
   padding: 0;
 }
 
-html, body { height: 100%; }
+html, body { 
+  height: 100%;
+ }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-family: "Bitter", Arial, sans-serif;
+  font-size: 18px;
   line-height: 1.5;
-  font-weight: 300;
-  background-color: #fdfdfd;
+  font-weight: 200;
+
+  background-color: #DCD0C0;
+  color: #DA635D;
 }
 
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
 
-a         { color: #2a7ae2; text-decoration: none; }
-a:hover   { color: #000; text-decoration: underline; }
-a:visited { color: #205caa; }
+a         { color: white; text-decoration: none; }
+a:hover   { color: white; text-decoration: underline; }
+a:visited { color: white; }
 
 /* Utility */
 
@@ -41,17 +45,18 @@ a:visited { color: #205caa; }
 /* Site header */
 
 .site-header {
-  border-top: 5px solid #333;
-  border-bottom: 1px solid #e8e8e8;
+  height: 7%;
+  padding-top: 2%;
+  border-bottom: 1px solid white;
   min-height: 56px;
-  background-color: white;
+  background-color: #4E4E56;
+  color: #DCD0C0;
 }
 
 .site-title,
 .site-title:hover,
 .site-title:visited {
   display: block;
-  color: #333;
   font-size: 26px;
   letter-spacing: -1px;
   float: left;
@@ -69,7 +74,6 @@ a:visited { color: #205caa; }
 
 .site-nav .page-link {
   margin-left: 20px;
-  color: #727272;
   letter-spacing: -.5px;
 }
 
@@ -77,7 +81,13 @@ a:visited { color: #205caa; }
 
 .site-footer {
   border-top: 1px solid #e8e8e8;
-  padding: 30px 0;
+/*  padding: 30px 0;
+*/  background-color: #4E4E56;
+  color: #DCD0C0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top: 2em;
 }
 
 .footer-heading {
@@ -137,7 +147,6 @@ a:visited { color: #205caa; }
 
 .page-content {
   padding: 30px 0;
-  background-color: #fff;
 }
 
 
@@ -161,7 +170,6 @@ a:visited { color: #205caa; }
   font-size: 15px;
   color: #818181;
 }
-
 
 /* Post styles */
 /* ----------------------------------------------------------*/
@@ -391,6 +399,8 @@ a:visited { color: #205caa; }
     line-height: 1.25;
     padding: 5px 10px;
     margin: 0;
+    color: #4E4E56;
+
   }
 
   .post-header h1 { font-size: 36px; }
