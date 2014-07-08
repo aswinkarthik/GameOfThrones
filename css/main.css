@@ -189,7 +189,9 @@ a:visited { color: white; }
   margin-top: 5px;
 }
 
-.post-content { margin: 0 0 30px; }
+.post-content { 
+  margin: 0 0 30px;
+}
 
 .post-content > * { margin: 20px 0; }
 
@@ -232,6 +234,18 @@ a:visited { color: white; }
 
 .post-content ul,
 .post-content ol { padding-left: 20px; }
+
+
+.post-content ul li {
+  list-style: none;
+  line-height: 3em;
+  transition: font-size 0.2s, color 0.2s ease-in, line-height 0.2s;
+}
+
+.post-content ul li:hover {
+  color: #4E4E56;
+  font-size: 24px;
+}
 
 .post pre,
 .post code {

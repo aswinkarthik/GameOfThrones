@@ -1,9 +1,10 @@
 ---
 layout: page
 order: 3
-title: Contact Us
 permalink: /contact/
 ---
+
+## Contact Us
 
 + Phone Number
 + Email

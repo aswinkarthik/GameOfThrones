@@ -1,10 +1,16 @@
-.post-content ul li {
-	list-style: none;
-	line-height: 3em;
-	transition: font-size 0.2s, color 0.2s ease-in, line-height 0.2s;
+
+.post-content ul {
+	float: left;
+	display: inline;
+	width: 35%;
 }
 
-.post-content ul li:hover {
-	color: #4E4E56;
-	font-size: 24px;
+.post-content p {
+	float: right;
+	display: inline;
+	width: 50%;
+}
+
+.post-content p img {
+	width: 100%;
 }
